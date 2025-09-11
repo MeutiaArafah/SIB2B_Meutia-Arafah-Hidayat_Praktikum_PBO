@@ -18,7 +18,8 @@ public class MotorDemo {
 
        Motor motor3 = new Motor();
        motor3.setPlatNomor("D 8343 CV");
-       motor3.setKecepatan(60);
+       motor3.setIsMesinOn(true);
+       motor3.setKecepatan(-90);
        motor3.displayStatus();
 
        
