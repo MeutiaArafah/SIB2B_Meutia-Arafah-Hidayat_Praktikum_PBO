@@ -22,5 +22,5 @@ public class Demo {
         System.out.println(dosen1.nama);
         System.out.println(dosen1.nidn);
         dosen1.mengajar();
-    }
+    } 
 }
