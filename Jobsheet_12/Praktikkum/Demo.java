@@ -38,7 +38,9 @@ public class Demo {
         System.out.println(pegawai1.nama);
         pegawai1.displayInfo();
 
-        
+        // Downcasting
+        TenagaKependidikan test = (TenagaKependidikan) pegawai1;
+       
 
     } 
 }
