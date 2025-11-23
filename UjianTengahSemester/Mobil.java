@@ -30,5 +30,5 @@ public void setJumlahKursi(int jumlahKursi) {
             info += "Jumlah Kursi : " + jumlahKursi + "\n";
             return info;
         }
-
+        // baris ke 19 - 32 adalah overriding kepada class Kendaraan
 }

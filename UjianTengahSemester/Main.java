@@ -19,10 +19,10 @@ public class Main {
         System.out.println("Total sewa tanpa diskon : " + ks1.hitungSewa());
         System.out.println("Total sewa diskon 20%   : " + ks1.hitungSewa(20));
     
-        System.out.println("\n=== Demonstrasi Polimorfisme ===");
-        Kendaraan k; // referensi parent
-        k = mbl1; // menunjuk ke subclass Motor
-        k.nyalakanMesin(); // method milik Motor
+        System.out.println("\n=== Penerapan Polimorfisme ===");
+        Kendaraan k; 
+        k = mbl1; 
+        k.nyalakanMesin();
     }
     }
 

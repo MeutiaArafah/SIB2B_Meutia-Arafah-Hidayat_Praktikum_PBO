@@ -4,12 +4,11 @@ import java.util.ArrayList;
 public class Garasi {
     private String kodeGarasi;
     private int kapasitas;
-    private ArrayList<Kendaraan> listKendaraan = new ArrayList<>();
+    private ArrayList<Kendaraan> listKendaraan = new ArrayList<>(); // ini adalah contoh penerapan dari composition
     
     public Garasi(String kodeGarasi, int kapasitas){
         this.kodeGarasi = kodeGarasi;
         this.kapasitas = kapasitas;
-
     }
 
     public String getKodeGarasi(){

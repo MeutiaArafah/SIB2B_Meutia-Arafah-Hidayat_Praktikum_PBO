@@ -1,8 +1,8 @@
 package UjianTengahSemester;
 
 public class KontrakSewa {
-    private Pelanggan pelanggan;
-    private Kendaraan kendaraan;
+    private Pelanggan pelanggan; 
+    private Kendaraan kendaraan; // baris ke 4 dan 5 merupakan contoh aggregation karena jika class kontrakSewa dihapus class Pelanggan dan Kendaraan masih bisa berdiri sendiri
     private int lamaSewa;
 
     public KontrakSewa(Pelanggan pelanggan, Kendaraan kendaraan, int lamaSewa){
@@ -19,6 +19,7 @@ public class KontrakSewa {
         double total = kendaraan.getHargaSewa() * lamaSewa;
         return total - (total * diskon /100);
     }
+    // baris ke 14 - 21 merupakan overloading karena signature dari method hitungSewa kedua diisikan dengan double diskon
 
     public void tampilInfoSewa() {
         System.out.println("=== DATA SEWA KENDARAAN ===");

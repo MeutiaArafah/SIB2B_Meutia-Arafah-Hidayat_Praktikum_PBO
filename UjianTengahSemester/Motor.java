@@ -30,5 +30,5 @@ public class Motor extends Kendaraan{
             info += "Transmisi    : " + transmisi + "\n";
             return info;
         }
-
+    // baris ke 19 - 32 adalah overriding kepada class Kendaraan
 }
