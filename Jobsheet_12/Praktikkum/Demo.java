@@ -39,8 +39,12 @@ public class Demo {
         pegawai1.displayInfo();
 
         // Downcasting
-        TenagaKependidikan test = (TenagaKependidikan) pegawai1;
-       
+        // TenagaKependidikan test = (TenagaKependidikan) pegawai1;
+        Dosen newDosen = (Dosen) pegawai1;
+
+        System.out.println(newDosen.nama);
+        System.out.println(newDosen.nidn);
+        newDosen.mengajar();
 
     } 
 }
